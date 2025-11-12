@@ -1,0 +1,88 @@
+Berikut berhubungan dengan linked list, kecuali?
+A. Pointer
+B. Sekuensial
+C. Node
+D. Array v
+
+Kelebihan linked list menggunakan dibanding array adalah?
+A. linked list tak terbatas (Dinamis) v
+B. Array lebih Dinamis
+C. linked list terbatas
+D. array unlimited
+
+Apa perbedaan utama antara single linked list dan double linked list?
+A. Single linked list memiliki alamat next, sedangkan double linked list memiliki alamat prev dan next. v
+B. Single linked list memiliki alamat prev, sedangkan double linked list memiliki alamat next.
+C. Single linked list memiliki dua alamat next, sedangkan double linked list hanya memiliki satu alamat next.
+D. Single linked list memiliki alamat next dan prev, sedangkan double linked list hanya memiliki alamat next.
+
+Apa keuntungan utama menggunakan double linked list dibandingkan single linked list?
+A. Kemampuan untuk menelusuri daftar dari kedua arah. v
+B. Penggunaan memori yang lebih efisien.
+C. Implementasi lebih sederhana.
+D. Lebih sedikit kebutuhan untuk memperbarui pointer saat menghapus node.
+
+Dalam double linked list, apa yang terjadi ketika sebuah node baru ditambahkan di tengah-tengah daftar?
+A. Node baru hanya menyesuaikan alamat next dari node sebelumnya.
+B. Node baru hanya menyesuaikan alamat prev dari node berikutnya.
+C. Node baru menyesuaikan alamat prev dari node berikutnya dan alamat next dari node sebelumnya. v
+D. Node baru hanya menyesuaikan data dan tidak ada perubahan pada alamat next atau prev.
+
+Apa penanda dalam stack?
+A. TOP v
+B. Front
+C. Rear
+D. head
+
+Operasi apa yang dapat dilakukan pada stack?
+A. Front
+B. Push v
+C. Insert
+D. Delete
+
+Jika sebuah stack berisi elemen 1, 2, 3, 4, 5 dengan 1 di bawah dan 5 di atas, elemen apa yang akan di-pop pertama kali?
+A. 1
+B. 2
+C. 4
+D. 5 v
+
+Jika sebuah queue berisi elemen 1, 2, 3 dan operasi dequeue diikuti dengan enqueue 4, 5 dilakukan, apa urutan elemen dalam queue dari depan ke belakang?
+A. 4, 5, 1, 2, 3
+B. 2, 3, 4, 5 v
+C. 1, 2, 3, 4, 5
+D. 2, 3, 4, 5, 1
+
+Dalam konteks pemrograman, bagaimana queue digunakan untuk antrian proses dalam sistem operasi?
+A. Menyimpan semua data variabel sementara.
+B. Menyimpan urutan proses yang harus dieksekusi oleh CPU. v
+C. Menyimpan semua fungsi yang akan dipanggil.
+D. Menyimpan hasil dari operasi aritmatika.
+
+Dalam binary search tree (BST), apa yang harus berlaku untuk setiap node?
+A. Nilai node kiri harus lebih besar dari nilai node.
+B. Nilai node kanan harus lebih besar dari nilai node.
+C. Nilai node kiri harus lebih kecil dari nilai node, dan nilai node kanan harus lebih besar dari nilai node. v
+D. Nilai node kiri harus sama dengan nilai node.
+
+Apa yang dimaksud dengan traversal inorder pada binary tree?
+A. Mengunjungi node kiri, node kanan, kemudian node akar (postorder)
+B. Mengunjungi node akar, node kiri, kemudian node kanan (preorder)
+C. Mengunjungi node kiri, node akar, kemudian node kanan v (inorder)
+D. Tidak ada traversal jenis ini dalam binary tree
+
+==tambahan==
+
+Jelaskan perbedaan antara linked list dan array beserta kelebihan dan kekurangannya!
+
+Array:
+Kelebihan: Akses elemen cepat, penyimpanan sekuensial
+Kekurangan: Ukuran tetap, insert/delete lambat
+Linked List:
+Kelebihan: Dinamis (ukuran fleksibel), insert/delete cepat
+Kekurangan: Akses elemen lambat, memori tambahan untuk pointer
+
+Apa itu binary tree dan BST?
+
+binary tree: struktur data hierarkis yang dimana setiap simpul (node) maksimal 2 anak dan tidak boleh lebih dari 2 anak
+BST: sama seperti binary tree cuman perbedannya jika simpul (node) lebih kecil dari simpul (node) parent, maka masuk ke kiri (left child).
+dan jika sebaliknya, maka masuk ke kanan (right child)
