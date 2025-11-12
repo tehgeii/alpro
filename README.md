@@ -1,2 +1,2 @@
 # alpro
-Algoritma dan Struktur Data Semester 2
+### Algoritma dan Struktur Data Semester 2
